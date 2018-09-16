@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # Watson News Intelligence starter kit [![](https://img.shields.io/badge/bluemix-powered-blue.svg)](https://bluemix.net)
 
@@ -114,3 +115,6 @@ Select your project from the [Apps list](https://console.bluemix.net/developer/w
 ## Open Source @ IBM
 
   Find more open source projects on the [IBM Github Page](http://ibm.github.io/)
+=======
+# pocket-democracy
+>>>>>>> f59c18d003bd0bf48087734d247a157293266a3f
