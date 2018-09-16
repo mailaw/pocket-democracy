@@ -47,6 +47,7 @@ html {
 .menu-item {
   width: 80px;
   border: 0.5px solid black;
+  cursor: pointer;
 }
 
 .issueName {
@@ -915,8 +916,7 @@ html {
 }
 .query--no-results {
   width: 70%;
-  color: #9753e1;
-  height: 12rem;
+  color: transparent;
   white-space: nowrap;
   overflow-x: hidden;
   text-overflow: ellipsis;
@@ -1107,11 +1107,15 @@ html {
   margin-top: 0rem;
   padding-top: 0rem;
 }
-
+.bgStyle {
+  z-index: -1000;
+  opacity: 0.5;
+  position: relative;
+}
 .query_collapsed {
   height: auto;
   min-height: auto;
-  padding: 4rem 0rem;
+  padding: 0rem 0rem;
 }
 .query_collapsed .query--search-container {
   margin-top: 0rem;
