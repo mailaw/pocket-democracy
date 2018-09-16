@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "watson_discovery_apikey": {
+    "searchPatterns": [
+      "user-provided:watson-informed-vote-discovery-1537043804625:apikey",
+      "cloudfoundry:$['76b7bf22-b443-47db-b3db-066ba2988f47'][0].credentials.apikey",
+      "env:service_watson_discovery:$.apikey",
+      "env:watson_discovery_apikey",
+      "file:/server/localdev-config.json:$.watson_discovery_apikey"
+    ]
+  },
+  "watson_discovery": {
+    "credentials": {
+      "searchPatterns": [
+        "user-provided:watson-informed-vote-discovery-1537043804625:url",
+        "cloudfoundry:watson_discovery",
+        "env:watson_discovery_credentials",
+        "file://localdev-config.json:watson_discovery_credentials"
+      ]
+    }
+  },
+  "watson_discovery_iam_apikey_description": {
+    "searchPatterns": [
+      "user-provided:watson-informed-vote-discovery-1537043804625:iam_apikey_description",
+      "cloudfoundry:$['76b7bf22-b443-47db-b3db-066ba2988f47'][0].credentials.iam_apikey_description",
+      "env:service_watson_discovery:$.iam_apikey_description",
+      "env:watson_discovery_iam_apikey_description",
+      "file:/server/localdev-config.json:$.watson_discovery_iam_apikey_description"
+    ]
+  },
+  "watson_discovery_iam_apikey_name": {
+    "searchPatterns": [
+      "user-provided:watson-informed-vote-discovery-1537043804625:iam_apikey_name",
+      "cloudfoundry:$['76b7bf22-b443-47db-b3db-066ba2988f47'][0].credentials.iam_apikey_name",
+      "env:service_watson_discovery:$.iam_apikey_name",
+      "env:watson_discovery_iam_apikey_name",
+      "file:/server/localdev-config.json:$.watson_discovery_iam_apikey_name"
+    ]
+  },
+  "watson_discovery_iam_role_crn": {
+    "searchPatterns": [
+      "user-provided:watson-informed-vote-discovery-1537043804625:iam_role_crn",
+      "cloudfoundry:$['76b7bf22-b443-47db-b3db-066ba2988f47'][0].credentials.iam_role_crn",
+      "env:service_watson_discovery:$.iam_role_crn",
+      "env:watson_discovery_iam_role_crn",
+      "file:/server/localdev-config.json:$.watson_discovery_iam_role_crn"
+    ]
+  },
+  "watson_discovery_iam_serviceid_crn": {
+    "searchPatterns": [
+      "user-provided:watson-informed-vote-discovery-1537043804625:iam_serviceid_crn",
+      "cloudfoundry:$['76b7bf22-b443-47db-b3db-066ba2988f47'][0].credentials.iam_serviceid_crn",
+      "env:service_watson_discovery:$.iam_serviceid_crn",
+      "env:watson_discovery_iam_serviceid_crn",
+      "file:/server/localdev-config.json:$.watson_discovery_iam_serviceid_crn"
+    ]
+  },
+  "watson_discovery_url": {
+    "searchPatterns": [
+      "user-provided:watson-informed-vote-discovery-1537043804625:url",
+      "cloudfoundry:$['76b7bf22-b443-47db-b3db-066ba2988f47'][0].credentials.url",
+      "env:service_watson_discovery:$.url",
+      "env:watson_discovery_url",
+      "file:/server/localdev-config.json:$.watson_discovery_url"
+    ]
+  }
+}
