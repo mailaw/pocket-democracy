@@ -52754,7 +52754,7 @@ __webpack_require__(144);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-_reactDom2.default.render(_react2.default.createElement(_index2.default, null), document.getElementById('root'));
+_reactDom2.default.render(_react2.default.createElement(_index2.default, null), document.getElementById("root"));
 
 /***/ }),
 /* 605 */
@@ -70636,6 +70636,8 @@ function Index() {
   return _react2.default.createElement(
     "div",
     null,
+    _react2.default.createElement(Img, { src: "images/bg.jpg" }),
+    ";",
     _react2.default.createElement(_phoneView2.default, null)
   );
 }

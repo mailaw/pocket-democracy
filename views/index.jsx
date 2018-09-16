@@ -8,6 +8,7 @@ import "./style.css";
 export default function Index() {
   return (
     <div>
+      <Img src={"images/bg.jpg"} />;
       {/*<Header
         mainBreadcrumbs="Watson News Intelligence Starter Kit"
         mainBreadcrumbsUrl="#"
