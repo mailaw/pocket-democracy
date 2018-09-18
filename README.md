@@ -17,7 +17,7 @@ Sketch
 
 The Watson News Intelligence starter kit for Node.js visualizes the results of [Discovery](https://www.ibm.com/watson/services/discovery) queries. The app searches [Discovery News](https://www.ibm.com/watson/services/discovery-news) data to get insights from the news, including related concepts, entities, and sentiment trends.
 
-### Running locally
+# Running locally
 
 These instructions are for running locally with Node.js. You can also [run locally with Docker](#running-locally-with-docker).
 
@@ -40,9 +40,9 @@ These instructions are for running locally with Node.js. You can also [run local
 1. Point your browser to [localhost:3000](http://localhost:3000).
 
 
-## Open Source @ IBM
+# Open Source @ IBM
 
   Find more open source projects on the [IBM Github Page](http://ibm.github.io/)
 =======
-# pocket-democracy
+
 >>>>>>> f59c18d003bd0bf48087734d247a157293266a3f
