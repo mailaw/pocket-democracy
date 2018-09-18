@@ -1,8 +1,7 @@
 # Pocket Democracy
+Pocket democracy was ideated as an augmented reality experience that allows a user to get information about names on their ballot by scanning it with their smartphone, revealing relevant information, popular news links, and a sentiment analysis of articles relating to the candidate. Pocket Democracy also supports speech-to-text and text-to-speech recognition and processing. Read more about the process here: https://medium.com/@annakambhampaty/pocket-democracy-empowering-voters-using-the-google-cloud-vision-api-ibm-watson-and-revspeech-61268791fcd3
 
-Pocket democracy was ideated as an augmented reality experience that allows a user to scan their smart phone over their ballot. The app will pick up the names on the ballot and allow the user to click them to reveal relevant information, popular news links, and a sentiment analysis of articles relating to the candidate. Pocket Democracy also supports speech-to-text and text-to-speech recognition and processing.
-
-This repo holds our web applcation prototype that was adapted from an IBM Watson Discovery News starter kit. It uses the data we gathered from images of a ballot using Google Cloud Vision and python to query the IBM News RSS feed. 
+This repo holds our web applcation prototype that was adapted from an IBM Watson Discovery News starter kit. It uses the data we gathered from images of a ballot using Google Cloud Vision and python to query the IBM News RSS feed.
 
 Prototyping & build tools:
 Google Cloud Vision’s Optical Character Recognition API
@@ -17,8 +16,6 @@ Sketch
 # Watson News Intelligence starter kit [![](https://img.shields.io/badge/bluemix-powered-blue.svg)](https://bluemix.net)
 
 The Watson News Intelligence starter kit for Node.js visualizes the results of [Discovery](https://www.ibm.com/watson/services/discovery) queries. The app searches [Discovery News](https://www.ibm.com/watson/services/discovery-news) data to get insights from the news, including related concepts, entities, and sentiment trends.
-
-## Getting started
 
 ### Running locally
 
