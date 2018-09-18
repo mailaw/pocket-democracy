@@ -1,5 +1,5 @@
 # Pocket Democracy
-Pocket democracy was ideated as an augmented reality experience that allows a user to get information about names on their ballot by scanning it with their smartphone, revealing relevant information, popular news links, and a sentiment analysis of articles relating to the candidate. Pocket Democracy also supports speech-to-text and text-to-speech recognition and processing. Read more about the process here: https://medium.com/@annakambhampaty/pocket-democracy-empowering-voters-using-the-google-cloud-vision-api-ibm-watson-and-revspeech-61268791fcd3
+Pocket democracy was ideated as an augmented reality experience that allows a user to get information about names on their ballot by scanning it with their smartphone, revealing relevant information, popular news links, and a sentiment analysis of articles relating to the candidate. Pocket Democracy also supports speech-to-text and text-to-speech recognition and processing. Read more about the process <a href="https://medium.com/@annakambhampaty/pocket-democracy-empowering-voters-using-the-google-cloud-vision-api-ibm-watson-and-revspeech-61268791fcd3">here</a>
 
 This repo holds our web applcation prototype that was adapted from an IBM Watson Discovery News starter kit. It uses the data we gathered from images of a ballot using Google Cloud Vision and python to query the IBM News RSS feed.
 
