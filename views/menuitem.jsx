@@ -1,10 +1,7 @@
 import React, { Component } from "react";
-import { Header, Jumbotron, Footer } from "watson-react-components";
-import Demo from "./demo.jsx";
-import PhoneView from "./phoneView";
-//import Background from "../public/images/1.png";
 import "./style.css";
 
+//TODO: Make names props, implement state/compononetDidMount for onClick functions
 export default class MenuItems extends Component {
   static propTypes = {
     handleClick: Function

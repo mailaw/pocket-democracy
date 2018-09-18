@@ -27,27 +27,62 @@ html {
   font-weight: 300;
 }
 
+.phone-demo {
+  width: 500px;
+}
 /*my css */
 .phone-view {
-  width: 375px;
-  height: 500px;
-  border: 1px solid black;
+  width: 379px;
+  height: 666px;
+  border: 1px solid gray;
   margin: auto;
+  margin-left: 60px;
   overflow-y: scroll;
+  background-color: white;
+  margin-top: 9.3rem;
+  position: absolute;
+  align-items: center;
+}
+.phoneStyle {
+  z-index: -100;
+  overflow: hidden;
+  left: 0px;
+  position: absolute;
+  display: block;
+  width: 500px;
+  margin-left: 100px;
 }
 
+.scroll {
+  margin-top: 0rem;
+}
 .results--panel h2 {
   font-size: 1.5em;
+}
+
+.bgStyle {
+  z-index: -1000;
+  opacity: 0.5;
+  overflow: hidden;
+  left: 0px;
+  position: absolute;
+  display: block;
 }
 
 .menu-style {
   display: flex;
   flex-direction: row;
+  margin: auto;
+}
+.menu-style div {
+  padding: 5px;
+  margin: 10px;
 }
 .menu-item {
-  width: 80px;
+  width: 100px;
   border: 0.5px solid black;
   cursor: pointer;
+  background-color: white;
 }
 
 .issueName {
@@ -56,13 +91,42 @@ html {
 
 #partyStyle {
   font-size: 1em;
-  color: red;
+  color: blue;
   font-weight: light;
 }
 
 .descStyle {
   font-size: 1em;
 }
+
+/*Make cols for different max-widths @media (max-width: 600px) {*/
+.avatar {
+  width: 140px;
+  height: auto;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.demo-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.app-desc-container img {
+  width: 375px;
+  height: auto;
+  margin-top: 230px;
+}
+
+/*End of my css */
 
 .tab-panels {
   background-color: transparent;
@@ -1107,11 +1171,7 @@ html {
   margin-top: 0rem;
   padding-top: 0rem;
 }
-.bgStyle {
-  z-index: -1000;
-  opacity: 0.5;
-  position: relative;
-}
+
 .query_collapsed {
   height: auto;
   min-height: auto;
@@ -1296,7 +1356,7 @@ html {
 
 .results {
   margin-top: 0rem;
-  padding-top: 3rem;
+  padding-top: 1rem;
   padding-bottom: 6rem;
 }
 

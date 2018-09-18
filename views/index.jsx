@@ -1,8 +1,6 @@
 import React from "react";
 import { Header, Jumbotron, Footer } from "watson-react-components";
-import Demo from "./demo.jsx";
-import PhoneView from "./phoneView";
-import Img from "react-image";
+import BodyView from "./bodyView";
 
 //import Background from "../public/images/1.png";
 import "./style.css";
@@ -10,15 +8,14 @@ import "./style.css";
 export default function Index() {
   return (
     <div>
-      {/*
-      <Img className="bgStyle" src={"images/bg.jpg"} />;
+      {/* TODO: Insert background 
       <Header
         mainBreadcrumbs="Watson News Intelligence Starter Kit"
         mainBreadcrumbsUrl="#"
         subBreadcrumbs="WatsonNewsIntelligenceInformedVoter"
         subBreadcrumbsUrl=""
       /> */}
-      <PhoneView />
+      <BodyView className="bodyStyle" />
     </div>
   );
 }

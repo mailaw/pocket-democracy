@@ -123,7 +123,7 @@ export default class Demo extends Component {
     return <Img src={"images/" + this.props.candidateNo + ".jpg"} />;
   }
   getCandidateParty() {
-    return "Democrat";
+    return "Democratic Party";
   }
 
   componentDidMount() {
@@ -198,47 +198,47 @@ export default class Demo extends Component {
           <div className="results">
             <div className="_container _container_large">
               <div className="results--panel">
-                <div className="row">
-                  <div>{this.getCandidateImage()}</div>
-                  <div>
-                    <h2>{this.getCandidateName()}</h2>
-                    <h2 id="partyStyle">{this.getCandidateParty()}</h2>
-                    <p className="descStyle">{this.getCandidateDesc()}</p>
-                  </div>
+                <div className="demo-column">
+                  <div className="avatar">{this.getCandidateImage()}</div>
                 </div>
-                <div>
-                  <WidgetHeader
-                    title={"Legislation Stances"}
-                    onShowQuery={this.onShowQuery}
-                  />
-                  <div className="issueName">
-                    <p>Abortion</p>
-                  </div>
-                  <div className="issueStance">
-                    <p>
-                      Codify state with federal law to allow 9th-month
-                      abortions. (May 2014)
-                    </p>
-                    <p>
-                      {" "}
-                      Let women make decision: pregnancy, adoption, or abortion.
-                      (Jan 2013)
-                    </p>
-                  </div>
-                  <div className="issueName">
-                    <p>Budget & Economy</p>
-                  </div>
-                  <div className="issueStance">
-                    <p>
-                      2015 Opportunity Agenda: cut $1.7B taxes; add $1.5B
-                      programs. (Jan 2015)
-                    </p>
-                    <p>
-                      {" "}
-                      Economic Blueprint: growth via development projects. (Jan
-                      2012)
-                    </p>
-                  </div>
+                <div className="demo-column">
+                  <h2>{this.getCandidateName()}</h2>
+                  <h2 id="partyStyle">{this.getCandidateParty()}</h2>
+                  <p className="descStyle">{this.getCandidateDesc()}</p>
+                </div>
+              </div>
+              <div className="results--panel">
+                <WidgetHeader
+                  title={"Legislation Stances"}
+                  onShowQuery={this.onShowQuery}
+                />
+                <div className="issueName">
+                  <p>Abortion</p>
+                </div>
+                <div className="issueStance">
+                  <p>
+                    Codify state with federal law to allow 9th-month abortions.
+                    (May 2014)
+                  </p>
+                  <p>
+                    {" "}
+                    Let women make decision: pregnancy, adoption, or abortion.
+                    (Jan 2013)
+                  </p>
+                </div>
+                <div className="issueName">
+                  <p>Budget & Economy</p>
+                </div>
+                <div className="issueStance">
+                  <p>
+                    2015 Opportunity Agenda: cut $1.7B taxes; add $1.5B
+                    programs. (Jan 2015)
+                  </p>
+                  <p>
+                    {" "}
+                    Economic Blueprint: growth via development projects. (Jan
+                    2012)
+                  </p>
                 </div>
               </div>
 
