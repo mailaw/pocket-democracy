@@ -1,0 +1,10 @@
+{
+  // "watson_discovery_apikey": "Z8vf9d7u-sGx2PIGjJGOIm0JxmeoFvJwKyBloeZr1qQ0",
+  "watson_discovery_apikey": "DgSArTG1GugOC17OdaG1LjZO6ceaX2OsxszJm-8HPKAQ",
+  // "watson_discovery_iam_apikey_description": "Auto generated apikey during resource-key operation for Instance - crn:v1:bluemix:public:discovery:us-east:a/f3a9bdadeecc60a26ffb9b3be71898c3:39db5330-abb0-49a1-a0cc-acad1218608a::",
+  // "watson_discovery_iam_apikey_name": "auto-generated-apikey-46e65b1d-14e4-42a3-8e10-b6f21e2e9f8a",
+  "watson_discovery_iam_role_crn": "crn:v1:bluemix:public:iam::::serviceRole:Writer",
+  "watson_discovery_iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::a/f3a9bdadeecc60a26ffb9b3be71898c3::serviceid:ServiceId-b8ff2dc1-98b9-40f5-9652-35bec389f69b",
+  "watson_discovery_url": "https://gateway-wdc.watsonplatform.net/discovery/api"
+}
+

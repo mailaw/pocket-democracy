@@ -198,16 +198,18 @@ export default class Demo extends Component {
           <div className="results">
             <div className="_container _container_large">
               <div className="results--panel">
-                <div className="demo-column">
-                  <div className="avatar">{this.getCandidateImage()}</div>
-                </div>
-                <div className="demo-column">
-                  <h2>{this.getCandidateName()}</h2>
-                  <h2 id="partyStyle">{this.getCandidateParty()}</h2>
-                  <p className="descStyle">{this.getCandidateDesc()}</p>
+                <div className="row">
+                  <div className="demo-column-1">
+                    <div className="avatar">{this.getCandidateImage()}</div>
+                  </div>
+                  <div className="demo-column-2 candidate-info">
+                    <h2>{this.getCandidateName()}</h2>
+                    <h3>{this.getCandidateParty()}</h3>
+                    <p>{this.getCandidateDesc()}</p>
+                  </div>
                 </div>
               </div>
-              <div className="results--panel">
+              <div className="results--panel widget">
                 <WidgetHeader
                   title={"Legislation Stances"}
                   onShowQuery={this.onShowQuery}

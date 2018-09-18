@@ -1,7 +1,6 @@
 import React from "react";
 import { Header, Jumbotron, Footer } from "watson-react-components";
 import BodyView from "./bodyView";
-
 //import Background from "../public/images/1.png";
 import "./style.css";
 

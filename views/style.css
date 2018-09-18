@@ -29,6 +29,7 @@ html {
 
 .phone-demo {
   width: 500px;
+  font-family: "Roboto", sans-serif;
 }
 /*my css */
 .phone-view {
@@ -56,9 +57,9 @@ html {
 .scroll {
   margin-top: 0rem;
 }
-.results--panel h2 {
+/*.results--panel h2 {
   font-size: 1.5em;
-}
+}*/
 
 .bgStyle {
   z-index: -1000;
@@ -89,19 +90,28 @@ html {
   font-weight: bold;
 }
 
-#partyStyle {
-  font-size: 1em;
-  color: blue;
-  font-weight: light;
+.candidate-info {
+  font-family: "Roboto", sans-serif;
 }
-
-.descStyle {
-  font-size: 1em;
+.candidate-info p {
+  font-size: 0.6em;
+  line-height: 1.2em;
+}
+.candidate-info h2 {
+  font-size: 1.2em;
+  font-weight: 700;
+  line-height: 1;
+}
+.candidate-info h3 {
+  font-size: 0.8em;
+  color: blue;
+  font-weight: 400;
+  line-height: 0;
 }
 
 /*Make cols for different max-widths @media (max-width: 600px) {*/
 .avatar {
-  width: 140px;
+  width: 100px;
   height: auto;
 }
 .column {
@@ -111,10 +121,16 @@ html {
   margin-left: 100px;
 }
 
-.demo-column {
+.demo-column-1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.demo-column-2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px;
+  margin-left: 10px;
 }
 .row {
   display: flex;
@@ -1779,10 +1795,16 @@ html {
   transform: translateY(2px);
 }
 
+/*my edit */
 .widget--header-title {
   display: inline-block;
   margin-top: 0rem;
-  font-size: 1.5em;
+  font-size: 1em;
+  line-height: 1;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-weight: 200;
 }
 
 @media (min-width: 560px) {
@@ -1811,7 +1833,7 @@ html {
     margin-bottom: 0rem;
   }
   .widget--header-title {
-    font-size: 2.25em;
+    font-size: 1em;
   }
   .code-results--header.base--h2 {
     font-size: 2.25em;
