@@ -63,7 +63,6 @@ export default class TopStories extends Component {
           <div className="top-stories widget">
             <WidgetHeader
               title={TopStories.widgetTitle()}
-              description={TopStories.widgetDescription()}
               onShowQuery={this.onShowQuery}
             />
             <div className="top-stories--list">

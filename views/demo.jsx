@@ -99,7 +99,7 @@ export default class Demo extends Component {
       case 2:
         return "Cynthia Nixon";
       case 3:
-        return "Kathy Hochul";
+        return "Sean Maloney";
       default:
         return "default";
     }
@@ -109,7 +109,6 @@ export default class Demo extends Component {
     switch (this.props.candidateNo) {
       case 1:
         return "Andrew Mark Cuomo is an American politician, author and lawyer serving as the 56th and current Governor of New York since 2011. A member of the Democratic Party, he was elected to the same position his father, Mario Cuomo, held for three terms.";
-
       case 2:
         return "Cynthia Ellen Nixon is an American actress, activist, and politician. For her portrayal of Miranda Hobbes in the HBO series Sex and the City, Nixon won the 2004 Primetime Emmy Award for Outstanding Supporting Actress in a Comedy Series. She reprised the role in the films Sex and the City and Sex and the City 2.";
       case 3:
@@ -126,6 +125,61 @@ export default class Demo extends Component {
     return "Democratic Party";
   }
 
+  /* TODO: refactor */
+  getIssueStance = issueNo => {
+    if (this.props.candidateNo == 1) {
+      switch (issueNo) {
+        case 1:
+          return "Codify state with federal law to allow 9th-month abortions. (May 2014)";
+        case 2:
+          return "Let women make decision: pregnancy, adoption, or abortion. (Jan 2013)";
+        case 3:
+          return "2015 Opportunity Agenda: cut $1.7B taxes; add $1.5B programs (Jan 2015)";
+        case 4:
+          return "Economic Blueprint: growth via development projects (Jan 2012)";
+        case 5:
+          return "Implement a default voter registration system (Jan 2016)";
+        case 6:
+          return "Pay equity for women; stop pregnancy discrimination (Jan2015)";
+        default:
+          return "Not recorded";
+      }
+    } else if (this.props.candidateNo == 2) {
+      switch (issueNo) {
+        case 1:
+          return "Abortion is a fundamental right for all women. (Jan 2016)";
+        case 2:
+          return "";
+        case 3:
+          return "A budget bullies people when it shortchanges opportunities. (Mar 2018)";
+        case 4:
+          return "";
+        case 5:
+          return "History of pro-gay rights with established credibility. (Mar 2018)";
+        case 6:
+          return "";
+        default:
+          return "Not recorded";
+      }
+    } else if (this.props.candidateNo == 3) {
+      switch (issueNo) {
+        case 1:
+          return "Strong supporter of a woman's right to choose. (Nov 2012)";
+        case 2:
+          return "I consider myself pro-choice. (Sep 2012),Supports federal stimulus spending. (Sep 2012)";
+        case 3:
+          return "Voted NO on prioritizing spending in case debt limit is reached. (May 2013)";
+        case 4:
+          return "Supports federal stimulus spending. (Sep 2012)";
+        case 5:
+          return "Voted YES on reauthorizing the Violence Against Women Act. (Feb 2013)";
+        case 6:
+          return "Endorsed as 'preferred' by The Feminist Majority indicating pro-women's rights. (Aug 2012)";
+        default:
+          return "Not recorded";
+      }
+    }
+  };
   componentDidMount() {
     console.log("COMPONENTNED");
     this.fetchNewData({
@@ -215,32 +269,25 @@ export default class Demo extends Component {
                   onShowQuery={this.onShowQuery}
                 />
                 <div className="issueName">
-                  <p>Abortion</p>
+                  <p>On Abortion</p>
                 </div>
                 <div className="issueStance">
-                  <p>
-                    Codify state with federal law to allow 9th-month abortions.
-                    (May 2014)
-                  </p>
-                  <p>
-                    {" "}
-                    Let women make decision: pregnancy, adoption, or abortion.
-                    (Jan 2013)
-                  </p>
+                  <p>{this.getIssueStance(1)}</p>
+                  <p>{this.getIssueStance(2)}</p>
                 </div>
                 <div className="issueName">
                   <p>Budget & Economy</p>
                 </div>
                 <div className="issueStance">
-                  <p>
-                    2015 Opportunity Agenda: cut $1.7B taxes; add $1.5B
-                    programs. (Jan 2015)
-                  </p>
-                  <p>
-                    {" "}
-                    Economic Blueprint: growth via development projects. (Jan
-                    2012)
-                  </p>
+                  <p>{this.getIssueStance(3)}</p>
+                  <p>{this.getIssueStance(4)}</p>
+                </div>
+                <div className="issueName">
+                  <p>Civil Rights</p>
+                </div>
+                <div className="issueStance">
+                  <p>{this.getIssueStance(5)}</p>
+                  <p>{this.getIssueStance(6)}</p>
                 </div>
               </div>
 
