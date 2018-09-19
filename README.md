@@ -3,6 +3,8 @@ Pocket democracy was ideated as an augmented reality experience that allows a us
 
 This repo holds our web applcation prototype that was adapted from an IBM Watson Discovery News starter kit. It uses the data we gathered from images of a ballot using Google Cloud Vision and python to query the IBM News RSS feed.
 
+Demo: http://pocket-democracy-hack.us-east.mybluemix.net/
+
 Prototyping & build tools:
 Google Cloud Vision’s Optical Character Recognition API
 Google Cloud’s Text-to-Speech API
